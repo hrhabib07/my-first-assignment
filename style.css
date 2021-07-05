@@ -1,0 +1,303 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h1:hover {
+    font-size: 65px;
+    font-weight: 900;
+    color: cyan;
+    background-color: azure;
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+section {
+    display: flex;
+    height: 800px;
+
+}
+
+
+p {
+    color: darkgrey;
+    font-weight: 100;
+}
+
+.blue-color {
+    color: blue;
+    font-size: 40px;
+}
+
+.blue-color:hover {
+    color: yellow;
+    background-color: blue;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.half-width {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.order-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 20px 30px;
+    background-image: linear-gradient(45deg, blue, cyan);
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px gray;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.order-button:hover {
+    text-decoration: none;
+    color: yellow;
+    font-weight: 600;
+    padding: 22px 32px;
+    background-image: linear-gradient(45deg, cyan, blue);
+    border-radius: 35px;
+    box-shadow: 5px 8px 19px lightskyblue;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#about-me-section {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+
+#about-me-image {
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 165px;
+}
+
+#top-section {
+    margin-top: 50px;
+}
+
+#text-alignment {
+    width: 30%;
+}
+
+#button-alignment {
+    margin-top: 80px;
+}
+
+.about-me-position {
+    margin-top: 165px;
+}
+
+#my-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#my-text p {
+    width: 30%;
+    margin-left: 35%;
+}
+
+.recipies-details {
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 3%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.recipies-details:hover {
+    width: 505px;
+    height: 705px;
+    border-radius: 22px;
+    float: left;
+    margin-left: 3%;
+    box-shadow: 10px 10px 40px lightyellow;
+    background-color: black;
+    color: white;
+}
+
+.food-info img {
+    width: 450px;
+    height: 300px;
+    margin: 5%;
+}
+
+.food-info h2 {
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+#all-recipies {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+
+.food-info p {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+#social-media-section {
+    width: 85%;
+    box-shadow: 10px 10px 40px gray;
+    height: 200px;
+    margin-left: 8%;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#social-media-section:hover {
+    box-shadow: 10px 10px 40px lightblue;
+    background-color: blue;
+    color: yellow;
+
+}
+
+.followrs-number {
+    text-align: center;
+    float: left;
+    margin-left: 18%;
+    margin-top: 1%;
+}
+
+.followrs-number p {
+    margin-top: 0;
+}
+
+.followrs-number h2 {
+    margin-bottom: 0;
+}
+
+.footer-section {
+    background-image: linear-gradient(45deg, black, rgb(36, 32, 32));
+    height: 300px;
+
+}
+
+.footer-section:hover {
+    background-image: linear-gradient(45deg, blue, cyan);
+}
+
+footer div {
+    text-align: center;
+}
+
+footer h2 {
+    padding-top: 50px;
+    color: gold;
+}
+
+footer p {
+    color: white;
+}
+
+.customers-review * {
+    box-sizing: border-box;
+}
+
+
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.right {
+    text-align: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+.bar-1 {
+    width: 15%;
+    height: 18px;
+    background-color: #f44336;
+}
+
+.bar-2 {
+    width: 4%;
+    height: 18px;
+    background-color: #ff9800;
+}
+
+.bar-3 {
+    width: 10%;
+    height: 18px;
+    background-color: #00bcd4;
+}
+
+.bar-4 {
+    width: 30%;
+    height: 18px;
+    background-color: #2196F3;
+}
+
+.bar-5 {
+    width: 75%;
+    height: 18px;
+    background-color: yellowgreen;
+}
+
+#creative-area {
+    margin: 5%;
+    padding: 5%;
+}
