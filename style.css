@@ -5,13 +5,11 @@ body {
 
 h1 {
     font-size: 50px;
-    font-weight: 900;
 }
 
 h1:hover {
     font-size: 65px;
-    font-weight: 900;
-    color: cyan;
+    color: yellowgreen;
     background-color: azure;
 }
 
@@ -29,7 +27,10 @@ section {
 
 p {
     color: darkgrey;
-    font-weight: 100;
+}
+
+p:hover {
+    color: black;
 }
 
 .blue-color {
@@ -66,18 +67,15 @@ p {
     box-shadow: 5px 5px 20px gray;
     display: inline-block;
     margin-top: 30px;
-
+    transition: padding 1s, padding 3s;
 }
 
 .order-button:hover {
-    text-decoration: none;
     color: yellow;
-    font-weight: 600;
     padding: 22px 32px;
     background-image: linear-gradient(45deg, cyan, blue);
     border-radius: 35px;
     box-shadow: 5px 8px 19px lightskyblue;
-    display: inline-block;
     margin-top: 30px;
 }
 
@@ -106,7 +104,7 @@ p {
 }
 
 .about-me-position {
-    margin-top: 165px;
+    margin-top: 150px;
 }
 
 #my-text {
@@ -129,14 +127,14 @@ p {
 }
 
 .recipies-details:hover {
-    width: 505px;
-    height: 705px;
-    border-radius: 22px;
+    width: 510px;
+    height: 710px;
+    border-radius: 25px;
     float: left;
     margin-left: 3%;
     box-shadow: 10px 10px 40px lightyellow;
-    background-color: black;
-    color: white;
+    background-color: blue;
+    color: yellow;
 }
 
 .food-info img {
@@ -221,17 +219,28 @@ footer p {
 
 .customers-review * {
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 
 
 .heading {
-    font-size: 25px;
+    font-size: 40px;
     margin-right: 25px;
+}
+
+.heading:hover {
+    font-size: 42px;
+    margin-right: 23px;
 }
 
 .fa {
     font-size: 25px;
+}
+
+.fa:hover {
+    font-size: 26px;
+
 }
 
 .checked {
@@ -270,31 +279,62 @@ footer p {
 .bar-1 {
     width: 15%;
     height: 18px;
-    background-color: #f44336;
+    background-color: red;
+}
+
+.bar-1:hover {
+    width: 20%;
+    height: 22px;
+    border-radius: 15px;
+    background-color: red;
 }
 
 .bar-2 {
     width: 4%;
     height: 18px;
-    background-color: #ff9800;
+    background-color: orange;
+}
+
+.bar-2:hover {
+    width: 5%;
+    height: 20px;
+    background-color: orange;
 }
 
 .bar-3 {
     width: 10%;
     height: 18px;
-    background-color: #00bcd4;
+    background-color: steelblue;
+}
+
+.bar-3:hover {
+    width: 12%;
+    height: 20px;
+    background-color: steelblue;
 }
 
 .bar-4 {
     width: 30%;
     height: 18px;
-    background-color: #2196F3;
+    background-color: blueviolet;
+}
+
+.bar-4:hover {
+    width: 32%;
+    height: 20px;
+    background-color: blueviolet;
 }
 
 .bar-5 {
     width: 75%;
     height: 18px;
-    background-color: yellowgreen;
+    background-color: green;
+}
+
+.bar-5:hover {
+    width: 77%;
+    height: 22px;
+    background-color: green;
 }
 
 #creative-area {
