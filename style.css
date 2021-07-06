@@ -5,12 +5,11 @@ body {
 
 h1 {
     font-size: 50px;
+    color: gray;
 }
 
 h1:hover {
-    font-size: 65px;
-    color: yellowgreen;
-    background-color: azure;
+    color: black;
 }
 
 h2 {
@@ -18,9 +17,10 @@ h2 {
 
 }
 
-section {
+.flixable-section {
     display: flex;
     height: 800px;
+    margin-top: 50px;
 
 }
 
@@ -42,7 +42,7 @@ p:hover {
     color: yellow;
     background-color: blue;
     font-size: 40px;
-    padding: 20px;
+    padding: 18px;
     border-radius: 25px;
 }
 
@@ -91,9 +91,7 @@ p:hover {
     margin-top: 165px;
 }
 
-#top-section {
-    margin-top: 50px;
-}
+
 
 #text-alignment {
     width: 30%;
@@ -105,11 +103,26 @@ p:hover {
 
 .about-me-position {
     margin-top: 150px;
+    color: darkslategrey;
+}
+
+.about-me-position:hover {
+    margin-top: 150px;
+    color: black;
 }
 
 #my-text {
     text-align: center;
     margin-top: 100px;
+    color: gray;
+}
+
+#my-recipies {
+    height: 800px;
+}
+
+#my-text:hover {
+    color: black;
 }
 
 #my-text p {
@@ -194,13 +207,13 @@ p:hover {
     margin-bottom: 0;
 }
 
-.footer-section {
+#footer-section {
     background-image: linear-gradient(45deg, black, rgb(36, 32, 32));
     height: 300px;
 
 }
 
-.footer-section:hover {
+#footer-section:hover {
     background-image: linear-gradient(45deg, blue, cyan);
 }
 
